@@ -1,0 +1,72 @@
+/* style.css */
+
+/* Apply Poppins font throughout the website */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Smooth transitions for hover effects */
+a, button, input {
+    transition: all 0.3s ease;
+}
+
+/* Navbar Styles */
+header {
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Hero Section */
+.hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Course Cards */
+.course-card {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Instructor Card */
+.instructor-card {
+    background-color: #f9fafb;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.instructor-card img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+/* Inputs */
+input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
